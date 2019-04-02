@@ -1,0 +1,17 @@
+# Architecturally Significant Requirements \(ASR\)
+
+| **Quality Attributes** | **Attribute Refinement** | **ASR** |
+| :--- | :--- | :--- |
+| Performance | Front-End Response Time | A user creates an evaluation for a group member while the system is under peak load. The front end should respond in less than 0.5 seconds. |
+| Performance | Page Loading Time | Whenever page is loading, Server should not timeout or freeze. |
+| Usability | New user proficiency | Users of Teammates should be proficient with basic features within 1 hour of usage time and advanced features within 4 hours of usage time |
+| Usability | Streamless Display Adjustment | The display should react and adjust to all sizes of media without glitches or bugs |
+| Usability | Browser Compatibility | Teammates must be able to run on all modern web browsers |
+| Usability | User Interface Enhancement | Users should be able to navigate through basic functionality in a reduced number of clicks |
+| Availability | Outright Uptime | Users account should be accessible at all time |
+| Modifiability | Improving product structure especially during integration | Developers should be able to improve the existing code and architecture with ease. |
+| Extensibility | Non-Google based storage options | The software architecture must be able to use other cloud storage options |
+| Extensibility | Deploying in infrastructure other than Google App Engine | The architecture should be flexible enough to deploy on different infrastructure other than Google App Engine. |
+| Security | Data Protection | Meeting current international data protection levels |
+| Security | Data Privacy | Whenever evaluation is being done, team members' evaluations should not be revealed to one another within the team or another team |
+
