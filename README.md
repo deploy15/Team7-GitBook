@@ -1,4 +1,3 @@
-# Continuous-Integration
+# GitBook For Team 7
 
-This is to test My Continuous Integration Projects with Jenkins
 
