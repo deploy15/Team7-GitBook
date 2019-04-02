@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Continuous-Integration](README.md)
+* [Purpose](README.md)
 

@@ -1,3 +1,2 @@
-# GitBook For Team 7
-
+# Purpose
 
