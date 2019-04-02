@@ -1,4 +1,4 @@
 # Utility Tree
 
-![FIGURE 1.0: UTILITY TREE](.gitbook/assets/image.png)
+![FIGURE 1.0: UTILITY TREE](.gitbook/assets/image%20%286%29.png)
 
