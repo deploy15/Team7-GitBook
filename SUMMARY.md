@@ -38,7 +38,7 @@
   * [Using Objectify](technical-debt-report/using-objectify/README.md)
     * [Technical Debt](technical-debt-report/using-objectify/technical-debt.md)
     * [Recommendation](technical-debt-report/using-objectify/recommendation.md)
-    * [Search Engine Optimization \(SEO\) Friendliness](technical-debt-report/using-objectify/search-engine-optimization-seo-friendliness/README.md)
-      * [Technical Debt](technical-debt-report/using-objectify/search-engine-optimization-seo-friendliness/technical-debt.md)
-      * [Recommendation](technical-debt-report/using-objectify/search-engine-optimization-seo-friendliness/recommendation.md)
+  * [Search Engine Optimization \(SEO\) Friendliness](technical-debt-report/search-engine-optimization-seo-friendliness/README.md)
+    * [Technical Debt](technical-debt-report/search-engine-optimization-seo-friendliness/technical-debt.md)
+    * [Recommendation](technical-debt-report/search-engine-optimization-seo-friendliness/recommendation.md)
 
