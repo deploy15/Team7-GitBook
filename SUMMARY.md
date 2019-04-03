@@ -34,4 +34,11 @@
     * [Dodgy Code](code-quality-and-technical-debt/finding-summary/dodgy-code.md)
     * [Internationalization Issues](code-quality-and-technical-debt/finding-summary/internationalization-issues.md)
     * [Code Vulnerability Warnings](code-quality-and-technical-debt/finding-summary/code-vulnerability-warnings.md)
+* [Technical Debt Report](technical-debt-report/README.md)
+  * [Using Objectify](technical-debt-report/using-objectify/README.md)
+    * [Technical Debt](technical-debt-report/using-objectify/technical-debt/README.md)
+      * [Recommendation](technical-debt-report/using-objectify/technical-debt/recommendation.md)
+* [Search Engine Optimization \(SEO\) Friendliness](search-engine-optimization-seo-friendliness/README.md)
+  * [Recommendation](search-engine-optimization-seo-friendliness/recommendation.md)
+  * [Technical Debt](search-engine-optimization-seo-friendliness/technical-debt.md)
 
