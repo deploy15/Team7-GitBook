@@ -1,4 +1,4 @@
-# Rationale
+# 4.5  Rationale
 
 Teammates is a web-based application product which is entirely hosted on Google App Engine Standard Environment. Google App Engine is a platform as a service offering from Google Cloud Platform. Given this, the entire storage infrastructure of the Teammates is built upon Google Cloud Datastore. In order to perform database operations, Teammates uses Objectify which is a Java data access API for Google Cloud Datastore which is used as an interface between the application storage logic and the underlying datastore. One of the Quality Attribute Scenario of the Teammates is ‘Extensibility’ which states that the application must be flexible to host the database on different platforms outside Google Cloud Datastore and therefore, the storage architecture of Teammates is designed to be adaptable to other data storage options. The migration of the storage system is aimed to be achieved in less than 1 hour.
 

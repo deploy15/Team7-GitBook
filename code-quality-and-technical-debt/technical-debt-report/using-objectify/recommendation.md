@@ -1,4 +1,4 @@
-# Recommendation
+# 6.4.1.2  Recommendation
 
   
 These can be rectified if Teammates would upgrade from objectify version 5, to objectify version 6+. “Objectify v6+ uses the Cloud Datastore API and can be used from anywhere - GAE Standard, GAE Flex, GCE, or outside Google Cloud entirely” \[1\]. This directly addresses the extensibility issues of multiple data storage options within or outside of the Google Cloud Datastore as the new API being used would not rely on the Google App Engine Datastore, but switch to the Cloud Datastore API.
@@ -18,4 +18,21 @@ When analyzing the codebase of teammates we see that there are some major codeba
 * "You will need to call ObjectifyService.init\(\), possibly passing in a custom ObjectifyFactory instance. The previous behavior of starting out with a default ObjectifyFactory incurs a connection cost and may fail in environments which require a custom DatastoreService" \[4\].
 
 As evidenced in the ofyhelper.java file snapshot below we see that an instance to the ObjectifyService has already been implemented under the line \(import com.googlecode.ObjectifyService;\)
+
+![Figure 11.0: Representation of dependency on Objectify](../../../.gitbook/assets/image%20%286%29.png)
+
+  
+If we analyze this further we can look into the ObjectifyService code and find the following snapshot. We can see that the ObjectifyService.java file is the holder of the master ObjectifyFactory and provider of the current thread-local Objectify instance.
+
+![Figure 12.0: Representation of dependency on Objectify](../../../.gitbook/assets/image%20%2813%29.png)
+
+  
+As a result the recommendation would be to create a custom ObjectifyFactory instance within the ofyhelper.java file. And then as we see in the image below each instance of the storage classes are registered with the Google App Engine. This practice is limited to version 5 however.
+
+![Figure 13.0: Representation of dependency on Objectify](../../../.gitbook/assets/image%20%285%29.png)
+
+  
+Our recommendation would be to change to the new version of the ObjectifyFactory instances by using the code below. Here we can register each of the classes inside of an ObjectifyFactory instance and then register and pass the ObjectifyFactory in order to be recognized by the new Google Cloud SDK.
+
+![Figure 14.0: Representation of dependency on Objectify](../../../.gitbook/assets/image%20%2810%29.png)
 

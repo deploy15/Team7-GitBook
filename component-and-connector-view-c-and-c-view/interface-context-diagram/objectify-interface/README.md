@@ -5,7 +5,7 @@ description: >-
   retrieve, delete and query own typed objects with GA
 ---
 
-# Objectify Interface
+# 5.3.2  Objectify Interface
 
 ![FIGURE 7.0: Objectify Interface](../../../.gitbook/assets/image.png)
 

@@ -1,4 +1,4 @@
-# Internationalization Issues
+# 6.3..2  Internationalization Issues
 
 •          While encoding data from string to bytes and vice versa, it is found there is reliance on default encoding and decoding without specifying a charset name.  
   

@@ -1,4 +1,4 @@
-# Rationale
+# 5.5  Rationale
 
 The component and connector view of the teammates highlights the "Extensibility" Quality Attribute Scenario for the Teammates application. The view mainly depicts the data storage and retrieval operations of the Teammates during the run-time. It is observed that the Teammates uses two different types of data storage infrastructures. One is Google Cloud Storage which is used for blob data storage and storing the student profile data which holds the student profile picture as the blob data. The second is the Google Cloud Datastore which is used for all the data storage and retrieval operations for the Teammates except blob and student profile data storage. This is because Google Cloud Datastore is not optimized for storing blob data. One of the reasons for choosing two separate data storage infrastructures is the cost of operation during the runtime. Google cloud datastore is relatively a cheaper offering from Google and Google Cloud Storage being a relational and transaction friendly database has a higher cost of operation.
 

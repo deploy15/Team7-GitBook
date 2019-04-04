@@ -1,4 +1,4 @@
-# Element Catalog
+# 4.2  Element Catalog
 
 | **Storage** This module contains all the storage logic including the workflow, internal API’s used for communication, interaction with internal search engine, and interaction with Google Cloud Datastore database. |
 | :--- |

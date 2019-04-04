@@ -2,7 +2,7 @@
 description: 'Elements and their properties are described below:'
 ---
 
-# Element Catalog
+# 5.2  Element Catalog
 
 **Client:**
 

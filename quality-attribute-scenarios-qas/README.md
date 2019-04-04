@@ -1,2 +1,0 @@
-# Quality Attribute Scenarios \(QAS\)
-

@@ -1,14 +1,14 @@
-# Business Goals
+# 2.2  Business Goals
 
 TEAMMATES is a peer feedback/evaluation tool for student teams while allowing the instructor the ability to oversee and share his/her own comments. It aims to provide a powerful, simplistic, and flexible experience. It has the following business goals
 
 1.         A custom communication portal for university teachers and students that tailors specifically to their needs and desires.
 
-TeamMates wants to get more user experiences from both teachers and students and make adjustments to the feedback. This will help make a better product and increase our user base.
+Teammates wants to get more user experiences from both teachers and students and make adjustments to the feedback. This will help make a better product and increase our user base.
 
 2.         Enhances smooth partnerships among the invaluable contributors.
 
-Giving contributors recognition has been and will remain a business goal for TeamMates. \* Maintaining contributor relations and gaining more contributors is a goal of TeamMates.
+Giving contributors recognition has been and will remain a business goal for Teammates. \* Maintaining contributor relations and gaining more contributors is a goal of Teammates.
 
 3.         Creating a webservice with an emphasis on usability.
 
