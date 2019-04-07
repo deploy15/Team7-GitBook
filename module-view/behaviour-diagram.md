@@ -1,4 +1,4 @@
 # 4.3  Behaviour Diagram
 
-![FIGURE 3.0: BEHAVIORAL DIAGRAM](../.gitbook/assets/image%20%287%29.png)
+![Figure 3.0: Behavioural Diagram](../.gitbook/assets/image%20%282%29.png)
 
