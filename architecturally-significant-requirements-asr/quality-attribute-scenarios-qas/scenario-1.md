@@ -6,9 +6,9 @@
 | Business Goals | Ensured Data trustworthiness. |
 | Quality Attributes | Security |
 | Stimulus | Data being revealed to unauthorized users. Denial of Service\(DoS\) attack could be activated. |
-| Stimulus Source | Human being, it may be internal or external being |
+| Stimulus Source | Human being, it may be internal or external being. Automated Bots can also be a stimulus source |
 | Artifact | The target can either be the data exchange within the system or the application services. |
 | Environment | Affect the operational system that is online. |
 | Response | Data exchange with the system and the external services should be encrypted. File size received by the system should be monitored in order to avoid DoS |
-| Response Measure | How many unauthorized evaluations was reveal and how often does the system became unavailable due to DoS attack? |
+| Response Measure | How many unauthorized access was logged by the system? |
 

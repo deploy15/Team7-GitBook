@@ -3,7 +3,7 @@
 | **Aspect** | **Details** |
 | :--- | :--- |
 | Scenario Name | Resolving an issue by introducing new functionality. |
-| Business Goals | A product which, although open source, is secure and trustworthy. |
+| Business Goals | A product which with ease of adding new features. |
 | Quality Attributes | Modifiability |
 | Stimulus | Wishes to submit a fix to an existing issue |
 | Stimulus Source | Any open-source developer |

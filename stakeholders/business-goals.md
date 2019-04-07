@@ -12,7 +12,7 @@ Giving contributors recognition has been and will remain a business goal for Tea
 
 3.         Front-end and back-end Migration
 
-TeamMates wishes to make front-end and back-end development as independent as possible. This includes migrating to Angular 7 as the front end framework and changing the middleware architecture from SSR-based to AJAX call back-end. This has a reference [here ](https://github.com/TEAMMATES/teammates/projects)
+TeamMates wishes to make front-end and back-end development as independent as possible. This includes migrating to Angular 7 as the front end framework and changing the middleware architecture from SSR-based to AJAX call back-end. This has a referenced [here ](https://github.com/TEAMMATES/teammates/projects)
 
 4.         A web service which is aesthetically appealing by adopting  a much more maintainable front-end development practice as referenced [here](https://github.com/TEAMMATES/teammates/projects)
 
