@@ -10,23 +10,17 @@ Teammates wants to get more user experiences from both teachers and students and
 
 Giving contributors recognition has been and will remain a business goal for Teammates. \* Maintaining contributor relations and gaining more contributors is a goal of Teammates.
 
-3.         Creating a webservice with an emphasis on usability.
+3.         Front-end and back-end Migration
 
-Usability is perhaps the most vital non-functional attribute for TeamMates. Teachers and students are busy people and supplying a fast and easily understood service is vital to improve peer to peer advertising and user adoption. Creating user surveys to test usability levels and getting improvements is a major goal for TeamMates at this stage of development.
+TeamMates wishes to make front-end and back-end development as independent as possible. This includes migrating to Angular 7 as the front end framework and changing the middleware architecture from SSR-based to AJAX call back-end. This has a reference [here ](https://github.com/TEAMMATES/teammates/projects)
 
-4.         A webservice which is aesthetically appealing.
-
-The feelings and emotions users experience when using a web application is very important to a web application service in acquiring users and maintaining users. \[13\] Improving the overall feelings and visual appeal of the front end UI is a major business goal for TeamMates going forward.
+4.         A web service which is aesthetically appealing by adopting  a much more maintainable front-end development practice as referenced [here](https://github.com/TEAMMATES/teammates/projects)
 
 5.         A product which although open source is secure and trustworthy.
 
-There is ongoing discussion regarding security implications of OSS vs CSS particularly with web applications containing personal information. \[14\] TeamMates wishes to ensure users that they have made organizational commitment to make TeamMates a leader in OSS security. TeamMates will also be transparent in its security practices and concerns. \[15\]
+There is ongoing discussion regarding security implications of OSS vs CSS particularly with web applications containing personal information as referenced [here](https://courses.cs.washington.edu/courses/csep590/05au/whitepaper_turnin/oss%2810%29.pdf). TeamMates wishes to ensure users that they have made organizational commitment to make TeamMates a leader in OSS security as referenced [here](https://github.com/TEAMMATES/teammates/wiki/Data-Protection). TeamMates will also be transparent in its security practices and concerns.
 
-6.         Front end should be modifiable and easy for outside developers to commit updates.
 
-To get front end developers to work on TeamMates the environment should be easy to set up and instructions should be well documented. It is a goal of TeamMates to get more front end commits at this stage of development.
 
-7.         Front-end and back-end Migration
 
-TeamMates wishes to make front-end and back-end development as independent as possible. This includes migrating to Angular 7 as the front end framework and changing the middleware architecture from SSR-based to AJAX call back-end. \[16\]
 
