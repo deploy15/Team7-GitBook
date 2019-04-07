@@ -1,6 +1,6 @@
 # 4.2  Element Catalog
 
-| **Storage** This module contains all the storage logic including the workflow, internal API’s used for communication, interaction with internal search engine, and interaction with Google Cloud Datastore database. |
+| This module contains all the storage logic including the workflow, internal API’s used for communication, interaction with internal search engine, and interaction with Google Cloud Datastore database. |
 | :--- |
 | **Common** This package contains the common utility classes that are used by the storage module. It also contains the data transfer logic acting as a API between frontend and backend communication and exception handling logic. |
 | **Data Transfer** This module contains the data transfer logic between the frontend and the storage module. |
